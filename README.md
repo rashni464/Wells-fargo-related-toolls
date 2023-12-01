@@ -42,5 +42,32 @@ Step1: $git stash save -u "backedchages"
  Note2: To get the saved stash code in your local
  $git stash apply stash2{1}
  stash number various based on stash ist we need to pick it.
+
+ How to push the code in github and raise the PR request and merge the branch:
+ Step1: Go to project and open the terminal
+ Step2: git status
+ step3: git add.
+ step4: git commit -a -m "added code"
+ step5: git push
+ step 6: if you want to get the pushed code
+ step 7: git pull
+
+ How to create a new feature brach
+
+ Step1: Go to github and click on branch fropdown
+ step3: goto find or create abranch. in that type feature/xxx
+ step4: A new branch is created now go to VS and in the terminal type git checkout feature/vvvvdv
+
+ How to pass the lint:
+ Step1: go to main-app
+ Step2: ng lint
+
+ How to push the code in intellij
+ Step1: git status
+ step2: git add file1
+ Step3: git status
+ step4: git commit -m "made changes"
+ Step5 : git push -f origin branch name.
+ 
  
 
