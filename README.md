@@ -19,3 +19,28 @@ Step 3: At the top right,  click your username, then "set me up", for "package t
 Step4: You can then enter your password and it will tell you what to include in your .npmrc to correctly download through artifactory.
 Step5: Give the url and credientials in the command prompt it will update in.npmrc or  directly you can copy and paste in .npmrc file.
 step 6: Now you are set to install angular.
+
+
+How to add path in the environment variables:
+Step1: Go into environment variables
+Step2: add the path in the user varaibale c:\users\k064113\appdara\roaming\npm\nide_modules
+Step3: Now you can useng it won't show any error.
+
+How to clone project from GITHUB:
+Step1: Go to github and take project and clone the uRL
+Step 2: Go to c:\users\k064113\projects and open CMD in serach
+Step 3: In the cmd type git clone url
+Step4: go to vs open that project
+Step5: We need to use main-app so go to terminal and type cd main-app
+step6: you will be in main-app then istall all the packages by typing npm i
+step 7: It will istall all the packages now. you need to type npm run start.
+
+How to stash the cde in VS code to github:
+Step1: $git stash save -u "backedchages"
+ Note1; to check stash happend or not
+ $git stash list
+ Note2: To get the saved stash code in your local
+ $git stash apply stash2{1}
+ stash number various based on stash ist we need to pick it.
+ 
+
