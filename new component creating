@@ -5,4 +5,6 @@ Step 3: Onboard through threadfix.
 
 
 About the Carat component:
-
+Note 1: Data goes from SERM to RDS using autosys jobs it goes to CARAT INT(SQL database) from there to CARAT STAGE frim there to CARAT DW (SQL database). by using JAVA REST APIS it goes to PING and from there to Ui.
+Note2: Sometimes from CARAT DW it goes to Carat OLTP (SQL database) from there to UI using java rest apis.
+Note3: For carat Reporting they use tableau which takes data from carat DW.
