@@ -1,0 +1,13 @@
+Node version Change:
+
+Use below command in cmd:
+set NODE_OPTIONS=--openssl-legacy-provider
+
+or
+
+Go to main-app and in terminal use the below command
+export NODE_OPTIONS=--openssl-legacy-provider
+
+To stop it:
+Go to main-app and in the terminal use the below command
+unset NODE_OPTIONS
